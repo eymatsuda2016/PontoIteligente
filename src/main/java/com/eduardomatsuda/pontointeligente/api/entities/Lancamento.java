@@ -129,8 +129,5 @@ public class  Lancamento implements Serializable {
 			return "Lancamento [id=" + id + ", data=" + data + ", descricao=" + descricao + ", localizacao="
 					+ localizacao + ", dataCriacao=" + dataCriacao + ", dataAtualizacao=" + dataAtualizacao + ", tipo="
 					+ tipo + ", funcionario=" + funcionario + "]";
-		}
-		
-		
-		
+		}	
 }
