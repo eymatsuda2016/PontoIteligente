@@ -38,4 +38,9 @@ public abstract class FuncionarioServiceImpl implements FuncionarioService {
 		log.info("Buscando funcionario pelo ID {} ", id);
 		return this.funcionarioRepository.findById(id);
 	}
+	
+	public void remover(Long id) {
+		log.info("Removendo o lancamento ID{}", id);
+		this.funcionarioRepository.deleteById(id);
+	}
 }
