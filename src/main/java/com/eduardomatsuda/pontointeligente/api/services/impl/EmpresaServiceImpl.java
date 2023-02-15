@@ -25,7 +25,7 @@ public class EmpresaServiceImpl {
 		return Optional.ofNullable(empresaRepository.findByCnpj(cnpj));
 	}
 	
-
+	
 	public Empresa persistir(Empresa empresa) {
 		log.info("Persistindo empresa: {}",empresa);
 		return this.empresaRepository.save(empresa);
