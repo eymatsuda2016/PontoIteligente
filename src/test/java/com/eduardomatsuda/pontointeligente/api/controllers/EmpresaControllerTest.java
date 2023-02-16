@@ -32,6 +32,7 @@ public class EmpresaControllerTest {
 	@Autowired
 	private MockMvc mvc;
 
+	@Autowired
 	@MockBean
 	private EmpresaService empresaService;
 

@@ -3,7 +3,9 @@ package com.eduardomatsuda.pontointeligente.api.utils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+import org.springframework.stereotype.Component;
 
+@Component
 public class PasswordUtils {
 	
 	private static final Logger log = LoggerFactory.getLogger(PasswordUtils.class);
